@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alcohol Meter - PocketDuino</string>
+
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_rank">Ranking</string>
+    <string name="button_clear">Clear</string>
+    
+    <string name="label_ranking">Ranking</string>
+
+    <string name="status_not">Device NOT connected</string>
+    <string name="status_connected">Device Connected</string>
+    <string name="status_cannot">Device cannot connect</string>
+
+    <string name="toast_attach">Device attached</string>
+    <string name="toast_permit">Device permitted</string>
+    <string name="toast_detach">Device detached</string>
+    
+</resources>

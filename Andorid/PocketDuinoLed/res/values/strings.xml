@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PocketDuino Led</string>
+
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_on">On</string>
+    <string name="button_off">Off</string>
+
+    <string name="switch_on">On</string>
+    <string name="switch_off">Off</string>
+    
+    <string name="status_not">Device NOT connected</string>
+    <string name="status_connected">Device Connected</string>
+    <string name="status_cannot">Device cannot connect</string>
+
+</resources>
