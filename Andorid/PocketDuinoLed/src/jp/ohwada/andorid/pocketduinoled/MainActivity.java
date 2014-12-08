@@ -25,6 +25,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.physicaloid.lib.Physicaloid;
 import com.physicaloid.lib.usb.driver.uart.ReadLisener;
@@ -102,6 +103,7 @@ public class MainActivity extends Activity {
     protected void onDestroy() { 
         super.onDestroy();
         closeDevice();
+		mPhysicaloid.clearReadListener();
 		unregisterReceiver( mBroadcastReceiver );
     } 
 
@@ -188,7 +190,6 @@ public class MainActivity extends Activity {
     private void closeDevice() {
 		if ( mPhysicaloid.isOpened() ) { 
         	mPhysicaloid.close(); 
-            mPhysicaloid.clearReadListener();
         }
     }
 

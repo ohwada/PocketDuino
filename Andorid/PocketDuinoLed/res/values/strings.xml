@@ -15,4 +15,8 @@
     <string name="status_connected">Device Connected</string>
     <string name="status_cannot">Device cannot connect</string>
 
+	<string name="toast_attach">Device attached</string>
+    <string name="toast_permit">Device permitted</string>
+    <string name="toast_detach">Device detached</string>
+    
 </resources>
