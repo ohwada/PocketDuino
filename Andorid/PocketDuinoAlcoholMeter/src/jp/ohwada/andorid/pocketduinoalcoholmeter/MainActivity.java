@@ -109,6 +109,7 @@ public class MainActivity extends Activity {
     protected void onDestroy() { 
         super.onDestroy();
         closeDevice();
+		mPhysicaloid.clearReadListener();
 		unregisterReceiver( mBroadcastReceiver );
     } 
 
@@ -209,7 +210,6 @@ public class MainActivity extends Activity {
     private void closeDevice() {
 		if ( mPhysicaloid.isOpened() ) { 
         	mPhysicaloid.close(); 
-            mPhysicaloid.clearReadListener();
         }
     }
 
